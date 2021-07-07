@@ -1,0 +1,2 @@
+SUBSYSTEM=="usb", ACTION=="add", ATTRS{serial}=="BP9GHSOQ", ENV{DEVTYPE}=="usb_device", RUN+="/bin/device_added.sh"
+SUBSYSTEM=="usb", ACTION=="remove", ENV{DEVTYPE}=="usb_device", RUN+="/bin/device_removed.sh"
