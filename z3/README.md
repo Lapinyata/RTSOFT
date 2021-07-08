@@ -1,4 +1,5 @@
 Порядок установки
+
 $ sudo xhost +local
 
 $ sudo docker build -t z2 .
