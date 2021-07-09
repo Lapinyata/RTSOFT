@@ -1,0 +1,1 @@
+cmd_/home/trickster/driverMark/Module.symvers := sed 's/ko$$/o/' /home/trickster/driverMark/modules.order | scripts/mod/modpost -m -a   -o /home/trickster/driverMark/Module.symvers -e -i Module.symvers   -T -
